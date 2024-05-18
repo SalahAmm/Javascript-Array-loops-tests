@@ -15,18 +15,18 @@ const sum = function(numbers) {
 
 )}
 
-const multiply = function() {
+const multiply = function(numbers) {
   return numbers.reduce((total , value ) => {
-    return total * value}, 0)
+    return total * value})
 
 };
 
-const power = function() {
-	
+const power = function(num1 , num2) {
+	return Math.pow(num1 , num2);
 };
 
-const factorial = function() {
-	
+const factorial = function(n) {
+	return n === 0 ?  1 :  n * factorial(n - 1);
 };
 
 // Do not edit below this line
